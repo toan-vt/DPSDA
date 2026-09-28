@@ -23,6 +23,7 @@ dependencies = [
   "fld@git+https://github.com/marcojira/fld.git",
   "openai",
   "tenacity",
+  "azure-identity",
 ]
 
 [project.optional-dependencies]
@@ -38,7 +39,6 @@ image = [
   "wilds",
   "cairosvg",
   "python_avatars",
-  "azure-identity",
 ]
 text = [
   "gdown",
@@ -51,7 +51,6 @@ text = [
   "transformers",
   "accelerate",
   "tqdm",
-  "azure-identity",
 ]
 tabular = [
   "tabicl",
